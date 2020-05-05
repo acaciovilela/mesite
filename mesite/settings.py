@@ -25,7 +25,7 @@ SECRET_KEY = 'u+m+id)*_zeq&ax15z$r7subrcr!^^fxqj)@rd7aek%+@1s4p='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['acaciovilela.me']
+ALLOWED_HOSTS = ['acaciovilela.me', '127.0.0.1']
 
 
 # Application definition
@@ -78,7 +78,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'OPTIONS': {
-	    'read_default_file': '/home/rocker/www/mesite/mesite/config/database.cnf'
+	    'read_default_file': '/home/rocker/server/www/mesite/config/database.cnf'
 	}
     }
 }
