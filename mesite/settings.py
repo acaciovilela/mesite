@@ -78,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'OPTIONS': {
-	    'read_default_file': '/home/rocker/server/www/mesite/config/database.cnf'
-	}
+	       'read_default_file': '/home/rocker/server/www/mesite/config/database.cnf'
+	     }
     }
 }
 
